@@ -29,6 +29,34 @@ The color coding needs to be printed as a reference manual for wiring personnel.
 This manual is a mapping from the color-names to the corresponding numbers.
 Add a function that would format the color coding in a form that someone can print.
 
+| Pair Number | Major Color | Minor Color |
+| --- | --- | --- |
+| 1 | White | Blue |
+| 2 | White | Orange |
+| 3 | White | Green |
+| 4 | White | Brown |
+| 5 | White | Slate |
+| 6 | Red | Blue |
+| 7 | Red | Orange |
+| 8 | Red | Green |
+| 9 | Red | Brown |
+| 10 | Red | Slate |
+| 11 | Black | Blue |
+| 12 | Black | Orange |
+| 13 | Black | Green |
+| 14 | Black | Brown |
+| 15 | Black | Slate |
+| 16 | Yellow | Blue |
+| 17 | Yellow | Orange |
+| 18 | Yellow | Green |
+| 19 | Yellow | Brown |
+| 20 | Yellow | Slate |
+| 21 | Violet | Blue |
+| 22 | Violet | Orange |
+| 23 | Violet | Green |
+| 24 | Violet | Brown |
+| 25 | Violet | Slate |
+
 Try writing strong tests for this new reporting feature. Examine if strong asserts force you to make re-usable functions.
 
 ### More Feature Requests
