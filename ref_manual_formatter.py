@@ -6,10 +6,16 @@ def md_header():
 def md_format_row(pair_number, major_color, minor_color):
     return f'| {pair_number} | {major_color} | {minor_color} |\n'
 
-def printReferenceManual():
+def csv_header():
+    return 'Pair Number,Major Color,Minor Color\n'
+
+def csv_format_row(pair_number, major_color, minor_color):
+    return f'{pair_number},{major_color},{minor_color}\n'
+
+def printReferenceManual(header_formater, row_formatter):
   print('Reference Manual:')
-  print(md_header(), end='')
+  print(header_formater(), end='')
   for i in range(1, len(MAJOR_COLORS) * len(MINOR_COLORS) + 1):
     major_color, minor_color = get_color_from_pair_number(i)
     #print(f'{i}: {color_pair_to_string(major_color, minor_color)}')
-    print(md_format_row(i, major_color, minor_color), end='')
+    print(row_formatter(i, major_color, minor_color), end='')
